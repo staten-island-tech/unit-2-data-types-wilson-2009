@@ -1,13 +1,5 @@
-""" number = 75
-if number > 68:
-    print('warm')
-elif number == 68:
-    print('perfect')
+number = input("give me a number")
+if int(number) % 2 == 0:
+    print(f"{number} is even")
 else:
-    print('cold') """
-
-sentence = input("give me a sentence")
-if sentence == "Friday":
-    print(f"{x} words")
-else:
-    print(f"{x} words")
+    print(f"{number} is odd")
