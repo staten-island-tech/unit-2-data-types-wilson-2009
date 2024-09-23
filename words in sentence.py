@@ -1,5 +1,4 @@
 sentence = input("give me a sentence")
-y= sentence.split( )
-z = y[0]
-print(y)
-print(z)
+word_list = sentence.split()
+words = len(word_list)
+print(f"there are {words} words in your sentence")

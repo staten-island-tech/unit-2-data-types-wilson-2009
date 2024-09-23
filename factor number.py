@@ -1,9 +1,4 @@
-def factors(x):
-   print("The factors of",x,"are:")
-   for i in range(1, x + 1):
-       if x % i == 0:
-           print(i)
-
-num = 200
-
-factors(num)
+number = int(input("give me a number"))
+for i in range(1, number + 1):
+    if number % i == 0:
+        print(i)
