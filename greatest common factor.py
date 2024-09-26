@@ -1,5 +1,5 @@
-num1 = int(input("give me your first number"))
-num2 = int(input("give me your second number"))
+x = int(input("give me your first number"))
+y = int(input("give me your second number"))
 def gcf(x, y):
     if x > y:
         num = y
